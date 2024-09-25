@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css');
+
+@font-face {
+  font-family: 'TriodPostnaja';
+  src: url(./TriodPostnaja.ttf);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+}
+
+@layer components {
+  .polygon-1 {
+    clip-path: polygon(
+      100% 17%,
+      46% 2%,
+      8% 27%,
+      56% 100%,
+      0 20%,
+      3% 87%,
+      98% 100%,
+      0 0,
+      100% 95%,
+      64% 27%
+    );
+  }
+  .polygon-2 {
+    clip-path: polygon(
+      100% 0,
+      15% 15%,
+      41% 10%,
+      9% 23%,
+      41% 16%,
+      6% 30%,
+      41% 18%,
+      6% 38%,
+      41% 24%,
+      5% 43%,
+      42% 29%,
+      3% 52%,
+      43% 35%,
+      1% 68%,
+      46% 41%,
+      2% 84%,
+      50% 48%,
+      10% 99%,
+      78% 47%,
+      30% 100%,
+      0 0,
+      61% 100%,
+      100% 0,
+      0 100%
+    );
+  }
+  .polygon-3 {
+    clip-path: polygon(
+      5% 14%,
+      39% 8%,
+      78% 11%,
+      62% 100%,
+      88% 26%,
+      78% 100%,
+      94% 72%,
+      44% 33%,
+      92% 7%,
+      37% 26%,
+      0 97%,
+      91% 11%,
+      46% 94%,
+      7% 72%
+    );
+  }
+  .polygon-4 {
+    clip-path: polygon(0 0, 81% 100%, 6% 0, 100% 4%, 81% 34%, 100% 87%, 1% 99%, 13% 74%);
+  }
+  .polygon-5 {
+    clip-path: polygon(
+      0 92%,
+      15% 0,
+      39% 22%,
+      86% 0,
+      0 57%,
+      100% 0,
+      83% 61%,
+      94% 92%,
+      36% 91%,
+      0 100%,
+      100% 15%
+    );
+  }
+  .polygon-6 {
+    clip-path: polygon(
+      89% 0,
+      1% 14%,
+      93% 56%,
+      0 20%,
+      30% 54%,
+      0% 79%,
+      44% 100%,
+      80% 88%,
+      100% 83%,
+      7% 48%,
+      100% 75%,
+      60% 30%
+    );
+  }
+}
